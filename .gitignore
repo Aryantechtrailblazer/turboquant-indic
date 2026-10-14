@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging & Build
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+
+# Model weights & Hugging Face caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artifacts
+Thumbs.db
+.DS_Store
+
+# Streamlit local state
+.streamlit/
